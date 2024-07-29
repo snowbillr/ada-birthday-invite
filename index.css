@@ -1,0 +1,13 @@
+main {
+  background-color: #cde8f1;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container__image {
+  margin: 0 auto;
+}
