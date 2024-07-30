@@ -4,21 +4,25 @@
   box-sizing: border-box;
 }
 
-main {
-  background-color: #cde8f1;
+html {
+  font-size: 24px;
+}
 
+body {
+  background-color: #cde8f1;
+}
+
+main {
   font-family: sans-serif;
 }
 
 .content {
-  /* height: 100%; */
   padding: 20px;
 
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  /* justify-content: center; */
   align-items: center;
+  gap: 20px;
 }
 
 .hero-container {
