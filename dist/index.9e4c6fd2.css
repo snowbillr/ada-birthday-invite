@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -17,83 +17,79 @@ main {
 }
 
 .content {
-  padding: 20px;
-
-  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  padding: 20px;
+  display: flex;
 }
 
 .hero-container {
+  background-image: url("bg.0e0fa889.jpg");
+  background-repeat: repeat;
+  border-radius: 4px;
   flex: 4;
-
-  display: flex;
-
   width: fit-content;
   max-width: 100%;
   margin: 0 auto;
-
   padding: 20px;
-  background-image: url('bg.jpg');
-  background-repeat: repeat;
-  border-radius: 4px;
+  display: flex;
 }
+
 .hero-container__image {
-  max-height: 80vh;
   max-width: 100%;
+  max-height: 80vh;
 }
 
 .details-container {
-  flex: 1;
-  width: fit-content;
-
-  margin: 0 auto;
-
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-
   color: #2a3d66;
-}
-.details {
   flex: 1;
-  background: white;
+  justify-content: center;
+  gap: 40px;
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+}
+
+.details {
+  background: #fff;
   border-radius: 4px;
+  flex: 1;
   padding: 20px;
 }
+
 .details h2 {
-  font-family: 'Courgette', sans-serif;
-  font-size: 1.5rem;
   margin-bottom: 10px;
+  font-family: Courgette, sans-serif;
+  font-size: 1.5rem;
 }
+
 .details p {
   font-size: 1.2rem;
 }
 
 .info {
-  flex: 1;
-  background: white;
-  border-radius: 4px;
-  padding: 20px;
-
-  width: 50%;
-
-  font-size: 1.2rem;
   text-align: center;
+  background: #fff;
+  border-radius: 4px;
+  flex: 1;
+  width: 50%;
+  padding: 20px;
+  font-size: 1.2rem;
 }
+
 .info p {
   margin-bottom: 10px;
 }
+
 .info a {
-  font-family: 'Courgette', sans-serif;
+  font-family: Courgette, sans-serif;
   font-size: 1.5rem;
 }
 
-/* utils */
-
 .confetti-bg {
-  background-image: url('confetti-bg.jpg');
-  background-position: left;
+  background-image: url("confetti-bg.08c8d820.jpg");
+  background-position: 0;
   background-size: 75%;
 }
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
