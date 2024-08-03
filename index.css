@@ -37,7 +37,7 @@ main {
   padding: 20px;
   background-image: url('bg.jpg');
   background-repeat: repeat;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .hero-container__image {
   max-height: 80vh;
@@ -59,7 +59,7 @@ main {
 .details {
   flex: 1;
   background: white;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 20px;
 }
 .details h2 {
@@ -73,11 +73,8 @@ main {
 
 .info {
   flex: 1;
-  background: white;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 20px;
-
-  width: 50%;
 
   font-size: 1.2rem;
   text-align: center;
@@ -95,5 +92,5 @@ main {
 .confetti-bg {
   background-image: url('confetti-bg.jpg');
   background-position: left;
-  background-size: 75%;
+  background-size: 300px;
 }
