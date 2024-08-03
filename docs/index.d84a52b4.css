@@ -103,8 +103,21 @@ main {
 .info {
   border-radius: 10px;
   flex: 1;
+  width: 80%;
   padding: 20px;
   font-size: 1.2rem;
+
+  @media screen and (width >= 700px) {
+    & {
+      width: 90%;
+    }
+  }
+
+  @media screen and (width >= 1200px) {
+    & {
+      width: 60%;
+    }
+  }
 }
 
 .info p {
