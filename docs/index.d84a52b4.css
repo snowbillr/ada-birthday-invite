@@ -43,12 +43,19 @@ main {
 
 .details-container {
   color: #2a3d66;
+  flex-direction: column;
   flex: 1;
   justify-content: center;
   gap: 40px;
   width: fit-content;
   margin: 0 auto;
   display: flex;
+
+  @media (width >= 400px) {
+    & {
+      flex-direction: row;
+    }
+  }
 }
 
 .details {
@@ -80,9 +87,23 @@ main {
   margin-bottom: 10px;
 }
 
-.info a {
+.rsvp-link {
+  color: #2a3d66;
+  background-color: #fff;
+  border: 2px solid #2a3d66;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
   font-family: Courgette, sans-serif;
   font-size: 1.5rem;
+  text-decoration: none;
+  transition: background-color .2s, color .2s;
+  display: block;
+}
+
+.rsvp-link:hover {
+  color: #fff;
+  background-color: #2a3d66;
 }
 
 .confetti-bg {

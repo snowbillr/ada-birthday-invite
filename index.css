@@ -55,6 +55,11 @@ main {
   justify-content: center;
 
   color: #2a3d66;
+
+  flex-direction: column;
+  @media (min-width: 400px) {
+    flex-direction: row;
+  }
 }
 .details {
   flex: 1;
@@ -82,9 +87,26 @@ main {
 .info p {
   margin-bottom: 10px;
 }
-.info a {
+
+.rsvp-link {
+  display: block;;
+  margin-top: 10px;
   font-family: 'Courgette', sans-serif;
   font-size: 1.5rem;
+
+  background-color: white;
+  color: #2a3d66;
+  border: #2a3d66 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+
+  text-decoration: none;
+
+  transition: background-color 0.2s, color 0.2s;
+}
+.rsvp-link:hover {
+  background-color: #2a3d66;
+  color: white;
 }
 
 /* utils */
