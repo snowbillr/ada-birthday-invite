@@ -16,6 +16,34 @@ main {
   font-family: sans-serif;
 }
 
+/* auth */
+.authorization {
+  color: #2a3d66;
+  font-family: sans-serif;
+}
+
+.authorization h1 {
+  font-family: 'Courgette', sans-serif;
+}
+.authorization label {
+  font-size: 1rem;
+}
+.authorization input {
+  font-size: 1rem;
+
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #2a3d66;
+}
+.authorization button {
+  font-size: 1rem;
+
+  margin: 20px auto;
+}
+
+
+/* content */
+
 .content {
   padding: 20px;
 
@@ -89,24 +117,7 @@ main {
 }
 
 .rsvp-link {
-  display: block;;
-  margin-top: 10px;
-  font-family: 'Courgette', sans-serif;
-  font-size: 1.5rem;
-
-  background-color: white;
-  color: #2a3d66;
-  border: #2a3d66 2px solid;
-  border-radius: 10px;
-  padding: 10px;
-
   text-decoration: none;
-
-  transition: background-color 0.2s, color 0.2s;
-}
-.rsvp-link:hover {
-  background-color: #2a3d66;
-  color: white;
 }
 
 /* utils */
@@ -115,4 +126,28 @@ main {
   background-image: url('confetti-bg.jpg');
   background-position: left;
   background-size: 300px;
+}
+
+.button {
+  display: block;;
+  margin-top: 10px;
+  font-family: 'Courgette', sans-serif;
+  font-size: 1.5rem;
+
+  padding: 10px;
+  background-color: white;
+  color: #2a3d66;
+  border: #2a3d66 2px solid;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+.button:hover {
+  background-color: #2a3d66;
+  color: white;
+}
+
+.hidden {
+  display: none;
 }

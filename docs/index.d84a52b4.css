@@ -16,6 +16,31 @@ main {
   font-family: sans-serif;
 }
 
+.authorization {
+  color: #2a3d66;
+  font-family: sans-serif;
+}
+
+.authorization h1 {
+  font-family: Courgette, sans-serif;
+}
+
+.authorization label {
+  font-size: 1rem;
+}
+
+.authorization input {
+  border: 1px solid #2a3d66;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.authorization button {
+  margin: 20px auto;
+  font-size: 1rem;
+}
+
 .content {
   flex-direction: column;
   align-items: center;
@@ -88,7 +113,18 @@ main {
 }
 
 .rsvp-link {
+  text-decoration: none;
+}
+
+.confetti-bg {
+  background-image: url("confetti-bg.908b1666.jpg");
+  background-position: 0;
+  background-size: 300px;
+}
+
+.button {
   color: #2a3d66;
+  cursor: pointer;
   background-color: #fff;
   border: 2px solid #2a3d66;
   border-radius: 10px;
@@ -96,19 +132,16 @@ main {
   padding: 10px;
   font-family: Courgette, sans-serif;
   font-size: 1.5rem;
-  text-decoration: none;
   transition: background-color .2s, color .2s;
   display: block;
 }
 
-.rsvp-link:hover {
+.button:hover {
   color: #fff;
   background-color: #2a3d66;
 }
 
-.confetti-bg {
-  background-image: url("confetti-bg.908b1666.jpg");
-  background-position: 0;
-  background-size: 300px;
+.hidden {
+  display: none;
 }
 /*# sourceMappingURL=index.d84a52b4.css.map */
